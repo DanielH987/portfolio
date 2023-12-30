@@ -2,7 +2,7 @@
 ## [Live Demo](https://danielh987.github.io/github-react-portfolio/)
 
 ## Overview
-Welcome to my portfolio page! This project, crafted with React, serves as a display of my skills and work. The structure and content of this project are heavily influenced and shaped by a template originally created by [Michael Huber](https://github.com/mshuber1981). This README file offers a detailed overview of the project and the process behind its creation.
+Welcome to my portfolio page! This project, crafted with React, serves as a display of my skills and work. The structure and content of this project are **heavily influenced** and **shaped** by a template originally created by [Michael Huber](https://github.com/mshuber1981). This README file offers a detailed overview of the project and the process behind its creation.
 
 ## Features
 - **Responsive Design**: Ensures compatibility with various devices and screen sizes.
