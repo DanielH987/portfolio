@@ -1,130 +1,45 @@
-# A React Portfolio Template for GitHub
+# My React Portfolio for GitHub
+## [Live Demo](https://danielh987.github.io/github-react-portfolio/)
 
-[![GitHub Repo stars](https://img.shields.io/github/stars/mshuber1981/github-react-portfolio-template?color=%2361dbfb&style=for-the-badge&logo=github)](https://github.com/mshuber1981/github-react-portfolio-template/stargazers/) [![GitHub Repo Forks](https://img.shields.io/github/forks/mshuber1981/github-react-portfolio-template?color=%2361dbfb&style=for-the-badge&logo=github&label=Forks)](https://github.com/mshuber1981/github-react-portfolio-template/network/members)
+## Overview
+Welcome to my portfolio page! This project, crafted with React, serves as a display of my skills and work. The structure and content of this project are heavily influenced and shaped by a template originally created by [Michael Huber](https://github.com/mshuber1981). This README file offers a detailed overview of the project and the process behind its creation.
 
-A performant, accessible, progressive React portfolio template that uses the [GitHub REST API](https://docs.github.com/en/free-pro-team@latest/rest).
+## Features
+- **Responsive Design**: Ensures compatibility with various devices and screen sizes.
+- **Interactive Components**: Utilizes React components for interactive user experience.
+- **Project Showcase**: Displays my personal projects with descriptions and links.
 
-Add your GitHub username once and all of your info will automatically be updated. Deploy to GitHub pages in a few simple steps.
+## Technologies Used
+- **React**: A JavaScript library for building user interfaces.
+- **CSS**: For styling components.
+- **JavaScript (ES6+)**: For interactive elements and functionality.
 
-[![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white) Say thank you!](https://twitter.com/intent/tweet?text=Thanks%20for%20the%20awesome%20Portfolio%20Template!%20https://github.com/mshuber1981/github-react-portfolio-template&via=MikeyHuber1981)
+## Project Structure
+- `src/`: Source files for the project.
+  - `components/`: React components used in the project.
+  - `App.js`: Main React component.
+  - `index.js`: Entry point for React application.
+- `public/`: Static files like images and the `index.html`.
 
-## [Live Demo](https://mshuber1981.github.io/github-react-portfolio-template/#/)
+## Challenges Faced
+- **Learning React**: As a beginner in React, getting accustomed to its component-based architecture was challenging.
+- **Responsive Design**: Ensuring the site looked good on all devices required meticulous CSS work.
 
-[Google PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/)
+## What I Learned
+- **React Fundamentals**: Understanding the basics of React and how to create dynamic web applications.
+- **State Management**: Managing state in a complex application.
+- **Responsive Web Design**: Crafting a website that looks and functions well on various devices.
 
-![Page Speed](/README_images/speed.png)
+## Future Improvements
+- **Adding More Projects**: Continuously updating the portfolio with new projects and learnings.
+- **User Feedback**: Implementing a section for visitors to leave feedback or contact me.
 
-## Light And Dark Themes
+## Contact Information
+- **Name**: Daniel Hootini
+- **Email**: hootinid@gmail.com
+- **LinkedIn**: https://www.linkedin.com/in/daniel-hootini/
+- **GitHub**: https://github.com/DanielH987
 
-![Hero Light](/README_images/hero.png)
+---
 
-![Hero Dark](/README_images/heroDark.png)
-
-### Getting Started
-
-1. [Create a repository from this template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template)
-2. [Clone your repository](https://developers.google.com/speed/pagespeed/insights/)
-3. Make sure [Node](https://nodejs.org/en/) is installed
-4. Open your project and install the dependencies
-
-   ```bash
-   npm install
-   ```
-
-5. Navigate to the src directory and open data.js
-6. Add your GitHub username ([data.js](https://github.com/mshuber1981/github-react-portfolio-template/blob/main/src/data.js#L17) lines 17-21)
-
-   ```javascript
-   /* START HERE
-   ************************************************************** 
-     Add your GitHub username (string - "YourUsername") below.
-   */
-   export const githubUsername = "Your GitHub username here";
-   ```
-
-7. Start the development server to view the results
-
-   ```bash
-   npm start
-   ```
-
-### Updating the Projects section
-
-![Projects](/README_images/projects.png)
-
-1. Follow the instructions to update the filteredProjects array ([data.js](https://github.com/mshuber1981/github-react-portfolio-template/blob/main/src/data.js#L91) lines 91-95)
-
-   ```javascript
-   /* Projects
-   ************************************************************** 
-     List the repo names (string - "your-repo-name") you want to include (they will be sorted alphabetically). If empty, only the first 3 will be included.
-   */
-   export const filteredProjects = ["example-1", "example-2", "example-3"];
-   ```
-
-2. Import the projects images you want to use ([data.js](https://github.com/mshuber1981/github-react-portfolio-template/blob/main/src/data.js#L7) lines 7-8) or the default image will be applied
-
-   ```javascript
-   // Projects Images (add your images to the images directory and import below)
-   import Logo from "./images/logo.svg";
-   ```
-
-3. Follow the instructions to update the projectCardImages array ([data.js](https://github.com/mshuber1981/github-react-portfolio-template/blob/main/src/data.js#L97) lines 97-103)
-
-   ```javascript
-   // Replace the defualt GitHub image for matching repos below (images imported above - lines 7-8)
-   export const projectCardImages = [
-     {
-       name: "example-1",
-       image: Logo,
-     },
-   ];
-   ```
-
-### Updating the Contact section
-
-![Projects](/README_images/contact.png)
-
-1. The contact form uses [Formspree](https://formspree.io/), create an account and add your endpoint URL ([data.js](https://github.com/mshuber1981/github-react-portfolio-template/blob/main/src/data.js#L105) lines 105-110)
-
-   ```javascript
-   /* Contact Info
-   ************************************************************** 
-     Add your formspree endpoint below.
-     https://formspree.io/
-   */
-   export const formspreeUrl = "https://formspree.io/f/YourEndpoint";
-   ```
-
-### Deploy
-
-A helpful guide for Create React App deployments with GitHub Pages can be found [here](https://create-react-app.dev/docs/deployment#github-pages).
-
-1. Update the homepage value ([package.json](https://github.com/mshuber1981/github-react-portfolio-template/blob/0133fcc02ab048fefcf73825d02385ffe27c3721/package.json#L3) line 3)
-
-   ```json
-   "homepage": "https://YourUsername.github.io/your-app/",
-   ```
-
-2. Run the deploy command
-
-   ```bash
-   npm run deploy
-   ```
-
-### Customization Options
-
-Checkout the [Wiki](https://github.com/mshuber1981/github-react-portfolio-template/wiki) for additional customization options:
-
-- [Updating the Hero images](https://github.com/mshuber1981/github-react-portfolio-template/wiki/Updating-the-Hero-images)
-- [Add a custom Blog icon](https://github.com/mshuber1981/github-react-portfolio-template/wiki/Updating-the-Hero-images#add-a-custom-blog-icon)
-- [Updating the About Me section](https://github.com/mshuber1981/github-react-portfolio-template/wiki/Updating-the-About-Me-section)
-- [Updating the Skills section](https://github.com/mshuber1981/github-react-portfolio-template/wiki/Updating-the-Skills-section)
-- [Add a link to your resume](https://github.com/mshuber1981/github-react-portfolio-template/wiki/Updating-the-Skills-section#add-a-link-to-your-resume)
-- [Updating the Navbar Logo](https://github.com/mshuber1981/github-react-portfolio-template/wiki/Updating-the-Navbar-Logo)
-
-[Back to top :top:](#a-react-portfolio-template-for-github)
-
-### License
-
-[MIT](https://choosealicense.com/licenses/mit/)
+Thank you for visiting my portfolio page!
