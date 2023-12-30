@@ -81,7 +81,7 @@ export default function ContactForm() {
           <Form.Control
             required
             pattern="^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$"
-            placeholder="someone@something.com"
+            placeholder="example@email.com"
           />
           <Form.Control.Feedback type="invalid">
             <h5>Please enter a valid email.</h5>

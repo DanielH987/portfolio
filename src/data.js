@@ -2,7 +2,7 @@
 import { Icon } from "@iconify/react";
 
 // Navbar Logo image (uncomment below and import your image)
-// import newLogo from "./images/yourFileName"
+import newLogo from "./images/navbarlogo.png"
 
 // Projects Images (add your images to the images directory and import below)
 import Logo from "./images/logo.svg";
@@ -18,20 +18,20 @@ export { HeroDark as Dark };
  **************************************************************
   Add your GitHub username (string - "YourUsername") below.
 */
-export const githubUsername = "Your GitHub username here";
+export const githubUsername = "danielh987";
 
 // Navbar Logo image
-export const navLogo = undefined;
+export const navLogo = newLogo;
 
 // Blog link icon - https://icon-sets.iconify.design/
-export const Blog = <Icon icon="ph:link-bold" />;
+export const Blog = <Icon icon="bi:linkedin" />;
 
 /* About Me
  **************************************************************
   Add a second paragraph for the about me section.
 */
 export const moreInfo =
-  "I enjoy learning about technology and helping others use it to improve their lives and be more productive. I built this site with React, React Bootstrap, Redux, and the GitHub REST API.";
+  "I am passionate about technology and using it to help others improve their lives and be more productive.";
 
 /* Skills
  ************************************************************** 
@@ -55,38 +55,23 @@ export const skillData = [
   },
   {
     id: 4,
-    skill: <Icon icon="ri:bootstrap-fill" className="display-4" />,
-    name: "BootStrap",
-  },
-  {
-    id: 5,
     skill: <Icon icon="mdi:react" className="display-4" />,
     name: "React",
   },
   {
-    id: 6,
-    skill: <Icon icon="file-icons:styledcomponents" className="display-4" />,
-    name: "Styled Components",
-  },
-  {
-    id: 7,
-    skill: <Icon icon="akar-icons:redux-fill" className="display-4" />,
-    name: "Redux",
-  },
-  {
-    id: 8,
+    id: 5,
     skill: <Icon icon="bi:git" className="display-4" />,
     name: "Git",
   },
   {
-    id: 9,
+    id: 6,
     skill: <Icon icon="fa6-brands:square-github" className="display-4" />,
     name: "GitHub",
   },
 ];
 
-// Resume link (string - "https://YourResumeUrl") - I am using CloudFront to share my resume (https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html)
-export const resume = null;
+// Resume link (string - "https://YourResumeUrl") 
+export const resume = "https://docs.google.com/document/d/10B0A1tLl0BarxrbwablWOTTuWii7Qg3n/edit?usp=sharing&ouid=105829136253040317520&rtpof=true&sd=true";
 
 /* Projects
  ************************************************************** 
@@ -107,4 +92,4 @@ export const projectCardImages = [
   Add your formspree endpoint below.
   https://formspree.io/
 */
-export const formspreeUrl = "https://formspree.io/f/YourEndpoint";
+export const formspreeUrl = "https://formspree.io/f/xyyryzvw";

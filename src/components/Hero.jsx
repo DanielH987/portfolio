@@ -10,7 +10,7 @@ import { Light, Dark } from "../data";
 // Components
 import { Col, Container, Row } from "react-bootstrap";
 import { Spin } from "./globalStyledComponents";
-import SocialLinks from "./SocialLinks";
+import SocialLinks from "./SocialLinks"; 
 
 const StyledHero = styled.header`
   position: relative;
@@ -86,6 +86,7 @@ export default function Hero() {
   return (
     <StyledHero>
       <Container>
+        {/* First Row for Name and Social Links */}
         <Row className="align-items-center text-center">
           <Col>
             <h1 className="mb-3 display-3 title">{name}</h1>
@@ -93,14 +94,22 @@ export default function Hero() {
               <SocialLinks />
             </div>
           </Col>
-          <Col className="d-none d-md-block">
+          <Col></Col>
+        </Row>
+
+        {/* New Row for React Logo */}
+        <Row className="justify-content-center mt-3">
+          <Col className="d-none d-md-block text-center">
             <img
               src={Logo}
               alt="React Logo"
               className="w-75 mx-auto hero-img"
             />
           </Col>
+          <Col></Col>
         </Row>
+
+        {/* Existing Row for Down Arrow */}
         <Row className="align-items-end down-container">
           <Col className="m-4 text-center">
             <Link to={"About"} className="link-icons">
