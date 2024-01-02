@@ -5,7 +5,15 @@ import { Icon } from "@iconify/react";
 import newLogo from "./images/navbarlogo.png"
 
 // Projects Images (add your images to the images directory and import below)
-import Logo from "./images/logo.svg";
+import Logo1 from "./images/logo1.png";
+import Logo2 from "./images/logo2.png";
+import Logo3 from "./images/logo3.png";
+import Logo4 from "./images/logo4.png";
+import Logo5 from "./images/logo5.png";
+import Logo6 from "./images/logo.svg";
+import Logo7 from "./images/logo7.png";
+import Logo8 from "./images/logo8.png";
+import Logo9 from "./images/logo9.png";
 
 // Hero Images (add your images to the /images directory with the same names)
 import HeroLight from "./images/hero-light.jpg";
@@ -82,8 +90,44 @@ export const filteredProjects = ["example-1", "example-2", "example-3"];
 // Replace the defualt GitHub image for matching repos below (images imported above - lines 7-8)
 export const projectCardImages = [
   {
-    name: "example-1",
-    image: Logo,
+    name: "1st-order",
+    image: Logo1,
+  },
+  {
+    name: "2nd-order",
+    image: Logo2,
+  },
+  {
+    name: "Custom-Linked-List",
+    image: Logo3,
+  },
+  {
+    name: "DNF-and-CNF",
+    image: Logo4,
+  },
+  {
+    name: "Functions",
+    image: Logo5,
+  },
+  {
+    name: "github-react-portfolio",
+    image: Logo6,
+  },
+  {
+    name: "Graph-Traversal",
+    image: Logo7,
+  },
+  {
+    name: "Modular-Arithmetic",
+    image: Logo8,
+  },
+  {
+    name: "Pi",
+    image: Logo9,
+  },
+  {
+    name: "DjangoBookApp",
+    demo: null,
   },
 ];
 

@@ -79,7 +79,7 @@ export default function Projects() {
                       <StyledCard
                         image={image}
                         name={name}
-                        description={description}
+                        description={description} 
                         url={html_url}
                         demo={homepage}
                       />
