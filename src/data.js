@@ -14,6 +14,7 @@ import Logo6 from "./images/logo.svg";
 import Logo7 from "./images/logo7.png";
 import Logo8 from "./images/logo8.png";
 import Logo9 from "./images/logo9.png";
+import Logo10 from "./images/logo10.png";
 
 // Hero Images (add your images to the /images directory with the same names)
 import HeroLight from "./images/hero-light.jpg";
@@ -126,8 +127,8 @@ export const projectCardImages = [
     image: Logo9,
   },
   {
-    name: "DjangoBookApp",
-    demo: null,
+    name: "Outwit",
+    image: Logo10,
   },
 ];
 
