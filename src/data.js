@@ -2,19 +2,10 @@
 import { Icon } from "@iconify/react";
 
 // Navbar Logo image (uncomment below and import your image)
-import newLogo from "./images/navbarlogo.png"
+// import newLogo from "./images/yourFileName"
 
 // Projects Images (add your images to the images directory and import below)
-import Logo1 from "./images/logo1.png";
-import Logo2 from "./images/logo2.png";
-import Logo3 from "./images/logo3.png";
-import Logo4 from "./images/logo4.png";
-import Logo5 from "./images/logo5.png";
-import Logo6 from "./images/logo.svg";
-import Logo7 from "./images/logo7.png";
-import Logo8 from "./images/logo8.png";
-import Logo9 from "./images/logo9.png";
-import Logo10 from "./images/logo10.png";
+import Logo from "./images/logo.svg";
 
 // Hero Images (add your images to the /images directory with the same names)
 import HeroLight from "./images/hero-light.jpg";
@@ -27,20 +18,20 @@ export { HeroDark as Dark };
  **************************************************************
   Add your GitHub username (string - "YourUsername") below.
 */
-export const githubUsername = "danielh987";
+export const githubUsername = "Your GitHub username here";
 
 // Navbar Logo image
-export const navLogo = newLogo;
+export const navLogo = undefined;
 
 // Blog link icon - https://icon-sets.iconify.design/
-export const Blog = <Icon icon="bi:linkedin" />;
+export const Blog = <Icon icon="ph:link-bold" />;
 
 /* About Me
  **************************************************************
   Add a second paragraph for the about me section.
 */
 export const moreInfo =
-  "I am passionate about technology and using it to help others improve their lives and be more productive.";
+  "I enjoy learning about technology and helping others use it to improve their lives and be more productive. I built this site with React, React Bootstrap, Redux, and the GitHub REST API.";
 
 /* Skills
  ************************************************************** 
@@ -64,23 +55,38 @@ export const skillData = [
   },
   {
     id: 4,
+    skill: <Icon icon="ri:bootstrap-fill" className="display-4" />,
+    name: "BootStrap",
+  },
+  {
+    id: 5,
     skill: <Icon icon="mdi:react" className="display-4" />,
     name: "React",
   },
   {
-    id: 5,
+    id: 6,
+    skill: <Icon icon="file-icons:styledcomponents" className="display-4" />,
+    name: "Styled Components",
+  },
+  {
+    id: 7,
+    skill: <Icon icon="akar-icons:redux-fill" className="display-4" />,
+    name: "Redux",
+  },
+  {
+    id: 8,
     skill: <Icon icon="bi:git" className="display-4" />,
     name: "Git",
   },
   {
-    id: 6,
+    id: 9,
     skill: <Icon icon="fa6-brands:square-github" className="display-4" />,
     name: "GitHub",
   },
 ];
 
-// Resume link (string - "https://YourResumeUrl") 
-export const resume = "https://docs.google.com/document/d/10B0A1tLl0BarxrbwablWOTTuWii7Qg3n/edit?usp=sharing&ouid=105829136253040317520&rtpof=true&sd=true";
+// Resume link (string - "https://YourResumeUrl") - I am using CloudFront to share my resume (https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html)
+export const resume = null;
 
 /* Projects
  ************************************************************** 
@@ -91,44 +97,8 @@ export const filteredProjects = ["example-1", "example-2", "example-3"];
 // Replace the defualt GitHub image for matching repos below (images imported above - lines 7-8)
 export const projectCardImages = [
   {
-    name: "1st-order",
-    image: Logo1,
-  },
-  {
-    name: "2nd-order",
-    image: Logo2,
-  },
-  {
-    name: "Custom-Linked-List",
-    image: Logo3,
-  },
-  {
-    name: "DNF-and-CNF",
-    image: Logo4,
-  },
-  {
-    name: "Functions",
-    image: Logo5,
-  },
-  {
-    name: "github-react-portfolio",
-    image: Logo6,
-  },
-  {
-    name: "Graph-Traversal",
-    image: Logo7,
-  },
-  {
-    name: "Modular-Arithmetic",
-    image: Logo8,
-  },
-  {
-    name: "Pi",
-    image: Logo9,
-  },
-  {
-    name: "Outwit",
-    image: Logo10,
+    name: "example-1",
+    image: Logo,
   },
 ];
 
@@ -137,4 +107,4 @@ export const projectCardImages = [
   Add your formspree endpoint below.
   https://formspree.io/
 */
-export const formspreeUrl = "https://formspree.io/f/xyyryzvw";
+export const formspreeUrl = "https://formspree.io/f/YourEndpoint";

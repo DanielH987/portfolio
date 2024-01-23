@@ -12,7 +12,7 @@
 /build
 
 # data
-src/data.js
+# src/data.js
 
 # misc
 .DS_Store
