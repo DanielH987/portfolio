@@ -11,6 +11,9 @@
 # production
 /build
 
+# data
+src/data.js
+
 # misc
 .DS_Store
 .env.local
