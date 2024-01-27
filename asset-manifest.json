@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/github-react-portfolio/static/css/main.63ffa884.css",
-    "main.js": "/github-react-portfolio/static/js/main.3d94e8ca.js",
-    "static/media/logo8.png": "/github-react-portfolio/static/media/logo8.2b47eb8cd2766a4d2ce3.png",
-    "static/media/logo2.png": "/github-react-portfolio/static/media/logo2.8b6a2fb937aa2466b61b.png",
-    "static/media/logo9.png": "/github-react-portfolio/static/media/logo9.2bec8c13d5d819ccb4f1.png",
-    "static/media/logo3.png": "/github-react-portfolio/static/media/logo3.3445916a481ab257a113.png",
-    "static/media/logo1.png": "/github-react-portfolio/static/media/logo1.9c2c2e4961fd136594b3.png",
-    "static/media/logo5.png": "/github-react-portfolio/static/media/logo5.02df1f7012941868bf79.png",
-    "static/media/logo4.png": "/github-react-portfolio/static/media/logo4.f6527ec3e83635dbc28c.png",
-    "static/media/logo7.png": "/github-react-portfolio/static/media/logo7.a5cf09f03847d19328ec.png",
-    "static/media/hero-light.jpg": "/github-react-portfolio/static/media/hero-light.4623c25d10a3c83a7ce4.jpg",
-    "static/media/hero-dark.jpg": "/github-react-portfolio/static/media/hero-dark.e80d3fc2348a7eeecd9a.jpg",
-    "static/media/navbarlogo.png": "/github-react-portfolio/static/media/navbarlogo.9994f2b2f219bb542435.png",
-    "service-worker.js": "/github-react-portfolio/service-worker.js",
-    "static/media/logo10.png": "/github-react-portfolio/static/media/logo10.691b60b26ed0a9be52bc.png",
-    "static/media/GH.svg": "/github-react-portfolio/static/media/GH.b9e9a9aa6f05e9dfe5dcb8991bda3e4d.svg",
-    "static/media/defaultNavLogo.svg": "/github-react-portfolio/static/media/defaultNavLogo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "static/media/logo.svg": "/github-react-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/github-react-portfolio/index.html",
-    "main.63ffa884.css.map": "/github-react-portfolio/static/css/main.63ffa884.css.map",
-    "main.3d94e8ca.js.map": "/github-react-portfolio/static/js/main.3d94e8ca.js.map"
+    "main.css": "/react-portfolio/static/css/main.63ffa884.css",
+    "main.js": "/react-portfolio/static/js/main.7d728081.js",
+    "static/media/logo8.png": "/react-portfolio/static/media/logo8.2b47eb8cd2766a4d2ce3.png",
+    "static/media/logo2.png": "/react-portfolio/static/media/logo2.8b6a2fb937aa2466b61b.png",
+    "static/media/logo9.png": "/react-portfolio/static/media/logo9.2bec8c13d5d819ccb4f1.png",
+    "static/media/logo3.png": "/react-portfolio/static/media/logo3.3445916a481ab257a113.png",
+    "static/media/logo1.png": "/react-portfolio/static/media/logo1.9c2c2e4961fd136594b3.png",
+    "static/media/logo5.png": "/react-portfolio/static/media/logo5.02df1f7012941868bf79.png",
+    "static/media/logo4.png": "/react-portfolio/static/media/logo4.f6527ec3e83635dbc28c.png",
+    "static/media/logo7.png": "/react-portfolio/static/media/logo7.a5cf09f03847d19328ec.png",
+    "static/media/hero-light.jpg": "/react-portfolio/static/media/hero-light.4623c25d10a3c83a7ce4.jpg",
+    "static/media/hero-dark.jpg": "/react-portfolio/static/media/hero-dark.e80d3fc2348a7eeecd9a.jpg",
+    "static/media/navbarlogo.png": "/react-portfolio/static/media/navbarlogo.9994f2b2f219bb542435.png",
+    "service-worker.js": "/react-portfolio/service-worker.js",
+    "static/media/logo10.png": "/react-portfolio/static/media/logo10.691b60b26ed0a9be52bc.png",
+    "static/media/GH.svg": "/react-portfolio/static/media/GH.b9e9a9aa6f05e9dfe5dcb8991bda3e4d.svg",
+    "static/media/defaultNavLogo.svg": "/react-portfolio/static/media/defaultNavLogo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/logo.svg": "/react-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/react-portfolio/index.html",
+    "main.63ffa884.css.map": "/react-portfolio/static/css/main.63ffa884.css.map",
+    "main.7d728081.js.map": "/react-portfolio/static/js/main.7d728081.js.map"
   },
   "entrypoints": [
     "static/css/main.63ffa884.css",
-    "static/js/main.3d94e8ca.js"
+    "static/js/main.7d728081.js"
   ]
 }
