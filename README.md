@@ -1,5 +1,5 @@
 # My React Portfolio for GitHub
-## [Live Demo](https://danielh987.github.io/react-portfolio/)
+## [Live Demo](https://danielh987.github.io/portfolio/)
 
 ## Overview
 Welcome to my portfolio page! This project, crafted with React, serves as a display of my skills and work. The structure and content of this project are **heavily influenced** and **shaped** by a template originally created by [Michael Huber](https://github.com/mshuber1981). This README file offers a detailed overview of the project and the process behind its creation.
