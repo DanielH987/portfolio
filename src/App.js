@@ -10,7 +10,7 @@ import { fetchGitHubReops } from "./pages/allProjectsSlice";
 import { HashRouter, Routes, Route } from "react-router-dom";
 import { Element } from "react-scroll";
 import { ThemeProvider } from "styled-components";
-// Data
+// Data file
 import { navLogo } from "./data";
 // Components
 import { Container } from "react-bootstrap";
