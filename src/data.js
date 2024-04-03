@@ -85,7 +85,7 @@ export const resume = "https://docs.google.com/document/d/10B0A1tLl0BarxrbwablWO
 
 /* Projects
  ************************************************************** 
-  List the repo names (string - "your-repo-name") you want to include (they will be sorted alphabetically). If empty, only the first 3 will be included.
+  List the repo names (string - "your-repo-name") you want to include (they will be sorted alphabetically). If empty, only the first 3 repos will be included.
 */
 export const filteredProjects = ["care-match", "Portfolio", "Outwit"];
 
