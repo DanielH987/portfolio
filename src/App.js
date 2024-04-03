@@ -93,7 +93,7 @@ export default function App() {
             <Route path="*" element={<NotFound />} />
           </Routes>
         </ThemeProvider>
-      </HashRouter> // random comment
+      </HashRouter>
     );
   }
 }
