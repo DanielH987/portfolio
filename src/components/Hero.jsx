@@ -1,3 +1,4 @@
+import React, { useEffect } from 'react';
 import { useSelector } from "react-redux";
 import { selectData } from "../pages/homeSlice";
 import { Link } from "react-scroll";
@@ -10,6 +11,7 @@ import { Light, Dark } from "../data";
 // Components
 import { Col, Container, Row } from "react-bootstrap";
 import { Spin } from "./globalStyledComponents";
+import { Tilt } from 'react-tilt';
 import SocialLinks from "./SocialLinks"; 
 
 const StyledHero = styled.header`
@@ -83,9 +85,26 @@ const StyledHero = styled.header`
 export default function Hero() {
   const { name } = useSelector(selectData);
 
+  useEffect(() => {
+    const handleMouseMove = (e) => {
+      // Example effect: moving background based on mouse position
+      // Adjust these values and target elements as needed
+      const moveX = (e.clientX * -1) / 20;
+      const moveY = (e.clientY * -1) / 20;
+      document.documentElement.style.setProperty('--mouse-x', `${moveX}px`);
+      document.documentElement.style.setProperty('--mouse-y', `${moveY}px`);
+    };
+
+    window.addEventListener('mousemove', handleMouseMove);
+
+    return () => window.removeEventListener('mousemove', handleMouseMove);
+  }, []);
+
   return (
     <StyledHero>
       <Container>
+        
+
         {/* First Row for Name and Social Links */}
         <Row className="align-items-center text-center">
           <Col>
@@ -100,11 +119,13 @@ export default function Hero() {
         {/* New Row for React Logo */}
         <Row className="justify-content-center mt-3">
           <Col className="d-none d-md-block text-center">
-            <img
-              src={Logo}
-              alt="React Logo"
-              className="w-75 mx-auto hero-img"
-            />
+            <Tilt options={{ max: 35, scale: 1.05, speed: 400, glare: true, "max-glare": 0.5 }}>
+              <img
+                src={Logo}
+                alt="React Logo"
+                className="w-75 mx-auto hero-img"
+              />
+            </Tilt>
           </Col>
           <Col></Col>
         </Row>
