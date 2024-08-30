@@ -16,6 +16,7 @@ import Logo8 from "./images/logo8.png";
 import Logo9 from "./images/logo9.png";
 import Logo10 from "./images/logo10.png";
 import Logo11 from "./images/logo11.png";
+import Logo12 from "./images/logo12.png";
 
 // Hero Images (add your images to the /images directory with the same names)
 import HeroLight from "./images/hero-light.jpg";
@@ -78,6 +79,11 @@ export const skillData = [
     skill: <Icon icon="fa6-brands:square-github" className="display-4" />,
     name: "GitHub",
   },
+  {
+    id: 7,
+    skill: <Icon icon="simple-icons:docker" className="display-4" />,
+    name: "Docker",
+  },
 ];
 
 // Resume link (string - "https://YourResumeUrl") 
@@ -87,7 +93,7 @@ export const resume = "https://docs.google.com/document/d/10B0A1tLl0BarxrbwablWO
  ************************************************************** 
   List the repo names (string - "your-repo-name") you want to include (they will be sorted alphabetically). If empty, only the first 3 repos will be included.
 */
-export const filteredProjects = ["care-match", "portfolio", "Outwit"];
+export const filteredProjects = ["care-match", "portfolio", "Outwit", "algorithm-visualizer"];
 
 // Replace the defualt GitHub image for matching repos below (images imported above - lines 7-8)
 export const projectCardImages = [
@@ -134,6 +140,10 @@ export const projectCardImages = [
   {
     name: "care-match",
     image: Logo11,
+  },
+  {
+    name: "algorithm-visualizer",
+    image: Logo12,
   },
 ];
 
