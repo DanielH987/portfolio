@@ -84,6 +84,11 @@ export const skillData = [
     skill: <Icon icon="simple-icons:docker" className="display-4" />,
     name: "Docker",
   },
+  {
+    id: 8,
+    skill: <Icon icon="simple-icons:nextdotjs" className="display-4" />,
+    name: "Next.js",
+  },
 ];
 
 // Resume link (string - "https://YourResumeUrl") 
