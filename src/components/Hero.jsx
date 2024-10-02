@@ -80,6 +80,19 @@ const StyledHero = styled.header`
       background-size: cover;
     }
   }
+
+  /* Ensure the social links are always on top */
+  .social-links {
+    z-index: 2;
+    position: relative;
+  }
+
+  /* Ensure the logo doesn't cover the social links */
+  .logo-container {
+    position: relative;
+    z-index: 1;
+    padding-top: 5rem; /* Add padding to avoid overlap */
+  }
 `;
 
 export default function Hero() {
@@ -87,8 +100,6 @@ export default function Hero() {
 
   useEffect(() => {
     const handleMouseMove = (e) => {
-      // Example effect: moving background based on mouse position
-      // Adjust these values and target elements as needed
       const moveX = (e.clientX * -1) / 20;
       const moveY = (e.clientY * -1) / 20;
       document.documentElement.style.setProperty('--mouse-x', `${moveX}px`);
@@ -104,12 +115,11 @@ export default function Hero() {
     <StyledHero>
       <Container>
         
-
         {/* First Row for Name and Social Links */}
         <Row className="align-items-center text-center">
           <Col>
             <h1 className="mb-3 display-3 title">{name}</h1>
-            <div className="d-flex align-items-center justify-content-center">
+            <div className="d-flex align-items-center justify-content-center social-links">
               <SocialLinks />
             </div>
           </Col>
@@ -117,7 +127,7 @@ export default function Hero() {
         </Row>
 
         {/* New Row for React Logo */}
-        <Row className="justify-content-center mt-3">
+        <Row className="justify-content-center mt-3 logo-container">
           <Col className="d-none d-md-block text-center">
             <Tilt options={{ max: 35, scale: 1.05, speed: 400, glare: true, "max-glare": 0.5 }}>
               <img
