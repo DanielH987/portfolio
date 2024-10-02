@@ -18,6 +18,7 @@ import Logo10 from "./images/logo10.png";
 import Logo11 from "./images/logo11.png";
 import Logo12 from "./images/logo12.png";
 import Logo13 from "./images/logo13.png";
+import Logo14 from "./images/logo14.png";
 
 // Hero Images (add your images to the /images directory with the same names)
 import HeroLight from "./images/hero-light.jpg";
@@ -99,7 +100,7 @@ export const resume = "https://docs.google.com/document/d/10B0A1tLl0BarxrbwablWO
  ************************************************************** 
   List the repo names (string - "your-repo-name") you want to include (they will be sorted alphabetically). If empty, only the first 3 repos will be included.
 */
-export const filteredProjects = ["care-match", "portfolio", "Outwit", "algorithm-visualizer", "tutoring-queue"];
+export const filteredProjects = ["care-match", "portfolio", "Outwit", "algorithm-visualizer", "tutoring-queue", "auth-app"];
 
 // Replace the defualt GitHub image for matching repos below (images imported above - lines 7-8)
 export const projectCardImages = [
@@ -154,6 +155,10 @@ export const projectCardImages = [
   {
     name: "tutoring-queue",
     image: Logo13,
+  },
+  {
+    name: "auth-app",
+    image: Logo14,
   },
 ];
 
