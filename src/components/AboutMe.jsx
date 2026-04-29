@@ -19,7 +19,7 @@ const StyledAboutMe = styled.section`
 `;
 
 export default function AboutMe() {
-  const { avatar_url, bio } = useSelector(selectData);
+  const { avatar_url } = useSelector(selectData);
 
   return (
     <Element name={"About"} id="about">
@@ -34,7 +34,7 @@ export default function AboutMe() {
           <Row className="align-items-center mt-5">
             <Col className="d-flex flex-column text-center">
               <Container>
-                <p>Dedicated programming student seeking hands-on job experience to complement academic knowledge and further develop skills in the field.</p>
+                <p>I am a recent graduate and software developer with experience building full-stack applications, working with modern web technologies, and turning ideas into practical, usable products.</p>
                 {moreInfo && <p>{moreInfo}</p>}
               </Container>
             </Col>

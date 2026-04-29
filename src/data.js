@@ -44,7 +44,7 @@ export const Blog = <Icon icon="bi:linkedin" />;
   Add a second paragraph for the about me section.
 */
 export const moreInfo =
-  "I am passionate about technology and using it to help others improve their lives and be more productive.";
+  "My background includes React, JavaScript, backend development, databases, and collaborative project work. I am especially interested in creating clean, maintainable software that solves real problems.";
 
 /* Skills
  ************************************************************** 
